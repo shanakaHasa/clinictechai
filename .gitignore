@@ -25,10 +25,6 @@ htmlcov/
 .mypy_cache/
 .DS_Store
 *.log
-storage/raw_documents/
-storage/processed_documents/
-storage/extracted_text/
-storage/chroma_db/
 logs/
 .venv
 venv/
