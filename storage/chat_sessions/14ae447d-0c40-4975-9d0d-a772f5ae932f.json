@@ -1,0 +1,33 @@
+{
+  "session_id": "14ae447d-0c40-4975-9d0d-a772f5ae932f",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is my ldl values?",
+      "timestamp": "2026-02-19T14:14:47.986083",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The LDL cholesterol levels reported in your medical documents are as follows:\n\n1. In 2021, your LDL cholesterol level was 155 mg/dL. [Source 1: enhanced_blood_report_2021.pdf, Page 1; Source 2: enhanced_blood_report_2021.pdf, Page 1]\n2. In 2022, your LDL cholesterol level was consistently reported as 130 mg/dL. [Source 4: enhanced_blood_report_2022.pdf, Page 1; Source 5: enhanced_blood_report_2022.pdf, Page 1]\n3. In 2023, your LDL cholesterol level was 145 mg/dL. [Source 3: enhanced_blood_report_2023.pdf, Page 1]\n\nThese values indicate fluctuations in your LDL cholesterol levels over the years, all of which exceed the optimal range.",
+      "timestamp": "2026-02-19T14:14:57.213931",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.34541792547834843
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2021.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2023.pdf"
+  ],
+  "created_at": "2026-02-19T14:14:47.986054",
+  "last_updated": "2026-02-19T14:14:57.213943"
+}

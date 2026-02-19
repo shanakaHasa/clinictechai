@@ -1,0 +1,75 @@
+{
+  "session_id": "13cb5cbd-a585-4e2c-81dc-a831a1e4a50c",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-02-19T14:29:25.920275",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? If you have any specific questions about the provided medical reports or need information from them, please let me know!",
+      "timestamp": "2026-02-19T14:29:29.768372",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.34182590233545646
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "timestamp": "2026-02-19T14:29:48.409366",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information provided in the medical reports, your name is John Doe.",
+      "timestamp": "2026-02-19T14:29:50.841753",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.4166666666666667
+      }
+    },
+    {
+      "role": "user",
+      "content": "how about my report?",
+      "timestamp": "2026-02-19T14:30:44.264013",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Your latest blood test report from 2023 shows the following key results in your lipid profile:\n\n- **Total Cholesterol**: 210 mg/dL, which is considered borderline high as the reference range is less than 200 mg/dL.\n- **LDL Cholesterol (Low-density lipoprotein)**: 145 mg/dL, which is elevated since the reference range is less than 100 mg/dL.\n- **HDL Cholesterol (High-density lipoprotein)**: 55 mg/dL, which is protective with the reference range being greater than 40 mg/dL.\n- **Triglycerides**: 120 mg/dL, which falls within the normal range as the reference range is less than 150 mg/dL.\n\nThese results suggest that while your HDL cholesterol and triglycerides are within normal limits, your total and LDL cholesterol levels are above the recommended ranges, indicating a need for possible lifestyle changes or medical management to reduce cardiovascular risk. It would be beneficial to discuss these results with your healthcare provider, Dr. Michael Smith, to determine the appropriate next steps.",
+      "timestamp": "2026-02-19T14:30:53.516027",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.34050179211469533
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2021.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2023.pdf"
+  ],
+  "created_at": "2026-02-19T14:29:25.920252",
+  "last_updated": "2026-02-19T14:30:53.516037"
+}

@@ -1,0 +1,75 @@
+{
+  "session_id": "9df35f0e-5c97-4ec7-b0a7-e0fc094b6545",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-02-19T14:47:52.358889",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? If you have any specific questions about the medical reports or need information from them, please let me know!",
+      "timestamp": "2026-02-19T14:47:55.886875",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.34234234234234234
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "timestamp": "2026-02-19T14:48:07.229317",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the medical reports provided, your name is John Doe.",
+      "timestamp": "2026-02-19T14:48:11.633751",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.41991341991341996
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is my ldl values over the years?",
+      "timestamp": "2026-02-19T14:48:36.130235",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the medical reports provided, here are your LDL cholesterol values over the years:\n\n- In 2021, your LDL cholesterol level was 155 mg/dL. [Source 1, 2, 3]\n- In 2022, your LDL cholesterol level was 130 mg/dL. [Source 5]\n- In 2023, your LDL cholesterol level was 145 mg/dL. [Source 4]\n\nThese values indicate fluctuations in your LDL cholesterol levels over the years, all of which have been above the optimal range, suggesting an increased cardiovascular risk.",
+      "timestamp": "2026-02-19T14:48:42.332866",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.3744201457919152
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2021.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2023.pdf"
+  ],
+  "created_at": "2026-02-19T14:47:52.358868",
+  "last_updated": "2026-02-19T14:48:42.332876"
+}

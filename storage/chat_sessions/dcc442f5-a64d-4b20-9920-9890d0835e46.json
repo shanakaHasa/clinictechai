@@ -1,0 +1,67 @@
+{
+  "session_id": "dcc442f5-a64d-4b20-9920-9890d0835e46",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is my name",
+      "timestamp": "2026-02-19T16:59:13.855053",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is Michael Anderson, as stated in the medical reports from Source 1: Michael_Anderson_3_Year_Scanned_Report.pdf (Page 0), Source 2: Michael_Anderson_3_Year_Scanned_Report.pdf (Page 1), and Source 3: Michael_Anderson_3_Year_Scanned_Report.pdf (Page 2).",
+      "timestamp": "2026-02-19T16:59:20.937872",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.34782608695652173
+      }
+    },
+    {
+      "role": "user",
+      "content": "tell about my report?",
+      "timestamp": "2026-02-19T16:59:45.915779",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the medical reports provided in the scanned documents, here is a summary of your health over the past three years:\n\n1. **2024 Report (Source 2: Michael_Anderson_3_Year_Scanned_Report.pdf, Page 0)**:\n   - Hemoglobin: 13.5 g/dL\n   - White Blood Cells (WBC): 7,200 /uL\n   - Platelets: 220,000 /uL\n   - Glucose: 92 mg/dL\n   - Doctor's Remarks: All parameters were within the normal range.\n\n2. **2025 Report (Source 3: Michael_Anderson_3_Year_Scanned_Report.pdf, Page 1)**:\n   - Hemoglobin: 12.8 g/dL\n   - WBC: 8,100 /uL\n   - Platelets: 205,000 /uL\n   - Glucose: 108 mg/dL\n   - Doctor's Remarks: A mild glucose elevation was observed, and there was a recommendation to monitor your diet.\n\n3. **2026 Report (Source 1: Michael_Anderson_3_Year_Scanned_Report.pdf, Page 2)**:\n   - Hemoglobin: 14.1 g/dL\n   - WBC: 6,900 /uL\n   - Platelets: 240,000 /uL\n   - Glucose: 95 mg/dL\n   - Doctor's Remarks: Your values stabilized and showed good improvement.\n\nOverall, your health has shown improvement over the years, particularly from 2025 to 2026, where your glucose levels returned to a more desirable range and other blood parameters improved. It's important to continue monitoring your health as advised by your doctor.",
+      "timestamp": "2026-02-19T17:00:09.865972",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.33980582524271846
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is capital of sri lanka?",
+      "timestamp": "2026-02-19T17:00:50.919721",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The capital of Sri Lanka is Colombo.",
+      "timestamp": "2026-02-19T17:00:54.694095",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.558974358974359
+      }
+    }
+  ],
+  "documents_used": [
+    "Michael_Anderson_3_Year_Scanned_Report.pdf"
+  ],
+  "created_at": "2026-02-19T16:59:13.855030",
+  "last_updated": "2026-02-19T17:00:54.694109"
+}

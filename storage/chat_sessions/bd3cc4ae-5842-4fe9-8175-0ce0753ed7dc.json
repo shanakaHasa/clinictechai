@@ -1,0 +1,33 @@
+{
+  "session_id": "bd3cc4ae-5842-4fe9-8175-0ce0753ed7dc",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-02-19T14:39:25.662433",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today? If you have any specific questions about the medical reports or need information from them, please let me know!",
+      "timestamp": "2026-02-19T14:39:29.036505",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.34234234234234234
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2021.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2023.pdf"
+  ],
+  "created_at": "2026-02-19T14:39:25.662419",
+  "last_updated": "2026-02-19T14:39:29.036515"
+}

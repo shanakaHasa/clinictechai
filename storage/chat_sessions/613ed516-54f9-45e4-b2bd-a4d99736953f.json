@@ -1,0 +1,33 @@
+{
+  "session_id": "613ed516-54f9-45e4-b2bd-a4d99736953f",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "timestamp": "2026-02-19T14:17:46.185337",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is John Doe, as stated in all the provided documents:\n\n- Source 1: enhanced_blood_report_2023.pdf (Page 0)\n- Source 2: enhanced_blood_report_2021.pdf (Page 0)\n- Source 3: enhanced_blood_report_2021.pdf (Page 0)\n- Source 4: enhanced_blood_report_2022.pdf (Page 0)\n- Source 5: enhanced_blood_report_2022.pdf (Page 0)",
+      "timestamp": "2026-02-19T14:17:52.016159",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.3450980392156863
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2021.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2023.pdf"
+  ],
+  "created_at": "2026-02-19T14:17:46.185315",
+  "last_updated": "2026-02-19T14:17:52.016170"
+}

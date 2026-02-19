@@ -1,0 +1,33 @@
+{
+  "session_id": "afeace7b-a958-41a5-9cfb-2dba85309f51",
+  "messages": [
+    {
+      "role": "user",
+      "content": "i need to know about daniel morgan report",
+      "timestamp": "2026-02-19T14:57:30.325095",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "This information is not available in the provided documents.",
+      "timestamp": "2026-02-19T14:57:33.263101",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.33927392739273926
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2023.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2021.pdf"
+  ],
+  "created_at": "2026-02-19T14:57:30.325040",
+  "last_updated": "2026-02-19T14:57:33.263112"
+}

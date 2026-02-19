@@ -1,0 +1,75 @@
+{
+  "session_id": "cd7f4339-aee6-4146-94e7-b5d1e5eb8c12",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "timestamp": "2026-02-19T14:19:43.064676",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is John Doe, as stated in all the provided documents: enhanced_blood_report_2023.pdf (Page 0), enhanced_blood_report_2021.pdf (Page 0), enhanced_blood_report_2022.pdf (Page 0), and enhanced_blood_report_2022.pdf (Page 0).",
+      "timestamp": "2026-02-19T14:19:47.788303",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.349527665317139
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is the ldl value all over years?",
+      "timestamp": "2026-02-19T14:20:10.530336",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the information provided in your enhanced blood reports over the years, here are the LDL cholesterol levels:\n\n- In 2021, your LDL cholesterol level was 155 mg/dL. (Source 2: enhanced_blood_report_2021.pdf, Page 1; Source 3: enhanced_blood_report_2021.pdf, Page 1)\n- In 2022, it was recorded at 130 mg/dL. (Source 4: enhanced_blood_report_2022.pdf, Page 1; Source 5: enhanced_blood_report_2022.pdf, Page 1)\n- In 2023, the level was 145 mg/dL. (Source 1: enhanced_blood_report_2023.pdf, Page 1)\n\nThese values indicate fluctuations in your LDL cholesterol levels over the years, all of which have been above the optimal range, suggesting an increased cardiovascular risk. It's important to continue monitoring and managing these levels to reduce health risks.",
+      "timestamp": "2026-02-19T14:20:20.735959",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2023.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.36159600997506236
+      }
+    },
+    {
+      "role": "user",
+      "content": "which year has the min ldl?",
+      "timestamp": "2026-02-19T14:20:58.356244",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The year with the minimum LDL cholesterol level, based on the provided blood reports, is 2022, with an LDL level of 130 mg/dL. This information is consistent with the data from the enhanced blood reports for that year.",
+      "timestamp": "2026-02-19T14:21:02.126503",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2023.pdf"
+        ],
+        "confidence_score": 0.3877551020408163
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2021.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2023.pdf"
+  ],
+  "created_at": "2026-02-19T14:19:43.064664",
+  "last_updated": "2026-02-19T14:21:02.126533"
+}

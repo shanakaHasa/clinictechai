@@ -1,0 +1,33 @@
+{
+  "session_id": "20c15007-bad9-48c6-bac8-00519aed3d2a",
+  "messages": [
+    {
+      "role": "user",
+      "content": "which year has the max ldl?",
+      "timestamp": "2026-02-19T14:18:52.137287",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The year with the maximum LDL cholesterol level is 2021, with an LDL level of 155 mg/dL. This information is found in the documents titled \"enhanced_blood_report_2021.pdf\" on Page 1, as mentioned in both Source 1 and Source 2.",
+      "timestamp": "2026-02-19T14:18:57.836506",
+      "metadata": {
+        "documents_used": [
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2021.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2022.pdf",
+          "enhanced_blood_report_2023.pdf"
+        ],
+        "confidence_score": 0.38603425559947296
+      }
+    }
+  ],
+  "documents_used": [
+    "enhanced_blood_report_2021.pdf",
+    "enhanced_blood_report_2022.pdf",
+    "enhanced_blood_report_2023.pdf"
+  ],
+  "created_at": "2026-02-19T14:18:52.137276",
+  "last_updated": "2026-02-19T14:18:57.836516"
+}

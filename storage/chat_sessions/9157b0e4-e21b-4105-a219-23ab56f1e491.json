@@ -1,0 +1,54 @@
+{
+  "session_id": "9157b0e4-e21b-4105-a219-23ab56f1e491",
+  "messages": [
+    {
+      "role": "user",
+      "content": "tell me about the all patient names",
+      "timestamp": "2026-02-19T16:07:34.934497",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The patient name mentioned in the provided documents is Michael Anderson. This name appears in multiple sources:\n\n1. [Source 1: Michael_Anderson_3_Year_Scanned_Report.pdf (Page 2)] - Michael Anderson, Age: 40, Report Year: 2026.\n2. [Source 2: Michael_Anderson_3_Year_Scanned_Report.pdf (Page 0)] - Michael Anderson, Age: 40, Report Year: 2024.\n3. [Source 3: Michael_Anderson_3_Year_Scanned_Report.pdf (Page 1)] - Michael Anderson, Age: 40, Report Year: 2025.\n\nNo other patient names are provided in the documents.",
+      "timestamp": "2026-02-19T16:07:42.441983",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "test_scanned.pdf",
+          "Enhanced_Scanned_Lab_Report_1.pdf"
+        ],
+        "confidence_score": 0.30194647201946473
+      }
+    },
+    {
+      "role": "user",
+      "content": "who are the other patient names?",
+      "timestamp": "2026-02-19T16:08:16.552238",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "Based on the documents provided and the previous conversation, the only patient name mentioned is Michael Anderson. There are no other patient names listed in the sources you have shared. If you have more documents or need information on other patients, please provide those details, and I can assist you further.",
+      "timestamp": "2026-02-19T16:08:21.634925",
+      "metadata": {
+        "documents_used": [
+          "test_scanned.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Enhanced_Scanned_Lab_Report_1.pdf"
+        ],
+        "confidence_score": 0.3169082125603865
+      }
+    }
+  ],
+  "documents_used": [
+    "Michael_Anderson_3_Year_Scanned_Report.pdf",
+    "test_scanned.pdf",
+    "Enhanced_Scanned_Lab_Report_1.pdf"
+  ],
+  "created_at": "2026-02-19T16:07:34.934482",
+  "last_updated": "2026-02-19T16:08:21.634935"
+}

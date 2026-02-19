@@ -1,0 +1,59 @@
+{
+  "success": true,
+  "answer": "The provided medical documents indicate the following results for John Doe's lipid profile across different years:\n\n1. **2021 Lipid Profile** (Source 1: enhanced_blood_report_2021.pdf, Page 1):\n   - LDL Cholesterol: 155 mg/dL, which is above the optimal range and considered elevated, indicating increased cardiovascular risk.\n\n2. **2022 Lipid Profile** (Source 5: enhanced_blood_report_2022.pdf, Page 0):\n   - Total Cholesterol: 210 mg/dL, which is above the optimal range (< 200 mg/dL) and considered borderline high.\n",
+  "query": "what can we say about that result?",
+  "sources": [],
+  "evidence": [
+    {
+      "page_number": 1,
+      "document": "enhanced_blood_report_2021.pdf",
+      "exact_chunk": "3. Clinical Summary\nClinical Summary & Interpretation:\nThe lipid profile indicates an LDL cholesterol level of 155 mg/dL, which exceeds the optimal range.\nElevated LDL cholesterol is associated with increased cardiovascular risk, including coronary artery\ndisease and stroke. HDL cholesterol remains within a protective range. Triglyceride levels are\nborderline elevated.\nFasting glucose and HbA1c levels suggest early signs of insulin resistance. Renal function markers\n(Creatinine and Urea) are wit",
+      "bbox": null,
+      "chunk_id": "doc_20260219130600_fcc97b6d_p1_c0",
+      "highlighted": "3. Clinical Summary\nClinical Summary & Interpretation:\nThe lipid profile indicates an LDL cholestero..."
+    },
+    {
+      "page_number": 1,
+      "document": "enhanced_blood_report_2023.pdf",
+      "exact_chunk": "3. Clinical Summary\nClinical Summary & Interpretation:\nThe lipid profile indicates an LDL cholesterol level of 145 mg/dL, which exceeds the optimal range.\nElevated LDL cholesterol is associated with increased cardiovascular risk, including coronary artery\ndisease and stroke. HDL cholesterol remains within a protective range. Triglyceride levels are\nwithin acceptable limits.\nFasting glucose and HbA1c levels suggest adequate glycemic control. Renal function markers\n(Creatinine and Urea) are within",
+      "bbox": null,
+      "chunk_id": "doc_20260219130717_4373c2cc_p1_c0",
+      "highlighted": "3. Clinical Summary\nClinical Summary & Interpretation:\nThe lipid profile indicates an LDL cholestero..."
+    },
+    {
+      "page_number": 1,
+      "document": "enhanced_blood_report_2022.pdf",
+      "exact_chunk": "3. Clinical Summary\nClinical Summary & Interpretation:\nThe lipid profile indicates an LDL cholesterol level of 130 mg/dL, which exceeds the optimal range.\nElevated LDL cholesterol is associated with increased cardiovascular risk, including coronary artery\ndisease and stroke. HDL cholesterol remains within a protective range. Triglyceride levels are\nwithin acceptable limits.\nFasting glucose and HbA1c levels suggest adequate glycemic control. Renal function markers\n(Creatinine and Urea) are within",
+      "bbox": null,
+      "chunk_id": "doc_20260219130707_f514d296_p1_c0",
+      "highlighted": "3. Clinical Summary\nClinical Summary & Interpretation:\nThe lipid profile indicates an LDL cholestero..."
+    },
+    {
+      "page_number": 0,
+      "document": "enhanced_blood_report_2023.pdf",
+      "exact_chunk": "COMPREHENSIVE ANNUAL BLOOD TEST REPORT\nPatient Name: John Doe\nDate of Birth: 12-May-1985\nGender: Male\nReport Year: 2023\nLaboratory ID: CLIN-2023-90821\nReferring Physician: Dr. Michael Smith\n1. Lipid Profile\nTest\nResult\nReference Range\nInterpretation\nTotal Cholesterol\n210 mg/dL\n< 200 mg/dL\nBorderline High\nLDL Cholesterol\n145 mg/dL\n< 100 mg/dL\nElevated\nHDL Cholesterol\n55 mg/dL\n> 40 mg/dL\nProtective\nTriglycerides\n120 mg/dL\n< 150 mg/dL\nNormal\n2. Basic Metabolic Panel\nTest\nResult\nReference Range\nInte",
+      "bbox": null,
+      "chunk_id": "doc_20260219130717_4373c2cc_p0_c0",
+      "highlighted": "COMPREHENSIVE ANNUAL BLOOD TEST REPORT\nPatient Name: John Doe\nDate of Birth: 12-May-1985\nGender: Mal..."
+    },
+    {
+      "page_number": 0,
+      "document": "enhanced_blood_report_2022.pdf",
+      "exact_chunk": "COMPREHENSIVE ANNUAL BLOOD TEST REPORT\nPatient Name: John Doe\nDate of Birth: 12-May-1985\nGender: Male\nReport Year: 2022\nLaboratory ID: CLIN-2022-90821\nReferring Physician: Dr. Michael Smith\n1. Lipid Profile\nTest\nResult\nReference Range\nInterpretation\nTotal Cholesterol\n210 mg/dL\n< 200 mg/dL\nBorderline High\nLDL Cholesterol\n130 mg/dL\n< 100 mg/dL\nNear Optimal\nHDL Cholesterol\n52 mg/dL\n> 40 mg/dL\nProtective\nTriglycerides\n150 mg/dL\n< 150 mg/dL\nNormal\n2. Basic Metabolic Panel\nTest\nResult\nReference Range\n",
+      "bbox": null,
+      "chunk_id": "doc_20260219130707_f514d296_p0_c0",
+      "highlighted": "COMPREHENSIVE ANNUAL BLOOD TEST REPORT\nPatient Name: John Doe\nDate of Birth: 12-May-1985\nGender: Mal..."
+    }
+  ],
+  "page_numbers": [],
+  "verification": null,
+  "context_used": 0,
+  "model": "gpt-4",
+  "confidence_score": 0,
+  "tokens_used": 0,
+  "timestamp": "2026-02-19T13:09:21.137385"
+}
+Error in grounding verification: 'str' object has no attribute 'get'
+Error in consistency verification: 'str' object has no attribute 'get'
+Error in relevance verification: 'list' object has no attribute 'lower'
+Error in verification: 'str' object has no attribute 'get'

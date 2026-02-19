@@ -1,0 +1,105 @@
+{
+  "session_id": "53cfbba8-ddce-4218-8c37-d946ceaeee81",
+  "messages": [
+    {
+      "role": "user",
+      "content": "hi",
+      "timestamp": "2026-02-19T17:07:26.387214",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I can only answer questions about the provided medical documents. Please ask a question related to the medical information provided.",
+      "timestamp": "2026-02-19T17:07:30.187154",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.3383084577114428
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is the capital of srilanka",
+      "timestamp": "2026-02-19T17:07:55.728451",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "I'm here to assist with questions related to the provided medical documents. Please ask a question about the medical information provided, as I cannot address topics outside of these documents.",
+      "timestamp": "2026-02-19T17:07:58.279841",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.256547619047619
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "timestamp": "2026-02-19T17:08:11.881855",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The name provided in the medical documents is Michael Anderson.",
+      "timestamp": "2026-02-19T17:08:16.452145",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.38396624472573837
+      }
+    },
+    {
+      "role": "user",
+      "content": "give me summary on report",
+      "timestamp": "2026-02-19T17:08:44.503706",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The medical reports for Michael Anderson over three years show the following:\n\n- In 2024, his hemoglobin was 13.5 g/dL, WBC count was 7,200 /uL, platelets were at 220,000 /uL, and glucose level was 92 mg/dL. The doctor noted that all parameters were within the normal range.\n\n- In 2025, there was a slight change with hemoglobin at 12.8 g/dL, WBC count at 8,100 /puL, platelets at 205,000 /uL, and glucose at 108 mg/dL. The doctor remarked on a mild glucose elevation and advised monitoring the diet.\n\n- By 2026, improvements were noted with hemoglobin increasing to 14.1 g/dL, WBC count reducing to 6,900 /uL, platelets rising to 240,000 /uL, and glucose stabilizing at 95 mg/dL. The doctor commented on the stabilization of values and noted good improvement.",
+      "timestamp": "2026-02-19T17:08:58.736485",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.3435244161358811
+      }
+    },
+    {
+      "role": "user",
+      "content": "what is the year maximum wbc has?",
+      "timestamp": "2026-02-19T17:10:06.432884",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The maximum WBC count for Michael Anderson was 8,100 /uL in the year 2025.",
+      "timestamp": "2026-02-19T17:10:10.534566",
+      "metadata": {
+        "documents_used": [
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf",
+          "Michael_Anderson_3_Year_Scanned_Report.pdf"
+        ],
+        "confidence_score": 0.4517133956386293
+      }
+    }
+  ],
+  "documents_used": [
+    "Michael_Anderson_3_Year_Scanned_Report.pdf"
+  ],
+  "created_at": "2026-02-19T17:07:26.387193",
+  "last_updated": "2026-02-19T17:10:10.534590"
+}
