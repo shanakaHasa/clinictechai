@@ -23,7 +23,7 @@ class Chunk:
         bbox: Tuple[float, float, float, float] = None,
         document_id: str = None,
         source_document: str = None,
-        extraction_type: str = "text"  # "text" or "ocr"
+        extraction_type: str = "text"
     ):
         """
         Initialize a chunk with metadata

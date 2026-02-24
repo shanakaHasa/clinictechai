@@ -1,0 +1,32 @@
+{
+  "session_id": "43c661bd-5e8b-4f2e-a69f-7b4cb2fc0e0e",
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is ldl profile for the last 3 years",
+      "timestamp": "2026-02-23T10:30:24.135601",
+      "metadata": {}
+    },
+    {
+      "role": "assistant",
+      "content": "The LDL cholesterol levels for the last two years are as follows:\n\n- In 2021, the LDL cholesterol level was 155 mg/dL.\n- In 2022, the LDL cholesterol level was 130 mg/dL.\n\nThere is no information available for the year 2020 in the provided documents.",
+      "timestamp": "2026-02-23T10:30:28.731703",
+      "metadata": {
+        "documents_used": [
+          "blood_report_2021.pdf",
+          "blood_report_2022.pdf",
+          "blood_report_2021.pdf",
+          "blood_report_2021.pdf",
+          "blood_report_2022.pdf"
+        ],
+        "confidence_score": 0.3333333333333333
+      }
+    }
+  ],
+  "documents_used": [
+    "blood_report_2021.pdf",
+    "blood_report_2022.pdf"
+  ],
+  "created_at": "2026-02-23T10:30:24.135498",
+  "last_updated": "2026-02-23T10:30:28.731723"
+}
